@@ -21,3 +21,5 @@ while x = 0:
     
   else:
     inimigo = rdm.randint()
+    
+#comentario
