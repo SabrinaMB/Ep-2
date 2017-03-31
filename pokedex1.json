@@ -1,0 +1,72 @@
+[
+	{
+		"nome" : "Pancham",
+		"tipo" : "Lutador",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 2,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Swablu",
+		"tipo" : "Voador",
+		"PS" : 2,
+		"ataque" : 2,
+		"defesa" : 3,
+		"ataque especial" : 2,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Jirachi",
+		"tipo" : "Psiquico",
+		"PS" : 4,
+		"ataque" : 5,
+		"defesa" : 4,
+		"ataque especial" : 5,
+		"defesa especial" : 4,
+		"velocidade" : 5
+	},
+	{
+		"nome" : "Timburr",
+		"tipo" : "Lutador",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 1,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Yungoos",
+		"tipo" : "Normal",
+		"PS" : 2,
+		"ataque" : 4,
+		"defesa" : 2,
+		"ataque especial" : 2,
+		"defesa especial" : 1,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Stufful",
+		"tipo" : "Lutador",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 2,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Mudkip",
+		"tipo" : "Agua",
+		"PS" : 2,
+		"ataque" : 4,
+		"defesa" : 2,
+		"ataque especial" : 2,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	}
+]

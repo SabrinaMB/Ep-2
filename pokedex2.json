@@ -1,0 +1,53 @@
+#pokemons novos presentes no nivel 2 
+[
+	{ 
+	"nome" : "Fennekin",
+	"tipo" : "Fogo",
+	"PS" : 2,
+	"ataque" : 2,
+	"defesa" : 2,
+	"ataque especial" : 3,
+	"defesa especial" : 3,
+	"velocidade" : 3
+	},
+	{ 
+	"nome" : "Teddiursa",
+	"tipo" : "Normal",
+	"PS" : 3,
+	"ataque" : 4,
+	"defesa" : 2,
+	"ataque especial" : 2,
+	"defesa especial" : 2,
+	"velocidade" : 2
+	},
+	{ 
+	"nome" : "Munna",
+	"tipo" : "Psiquico",
+	"PS" : 3,
+	"ataque" : 1,
+	"defesa" : 2,
+	"ataque especial" : 3,
+	"defesa especial" : 2,
+	"velocidade" : 1
+	},
+	{ 
+	"nome" : "Pyukumuku",
+	"tipo" : "Agua",
+	"PS" : 2,
+	"ataque" : 3,
+	"defesa" : 7,
+	"ataque especial" : 2,
+	"defesa especial" : 8,
+	"velocidade" : 1
+	},
+	{ 
+	"nome" : "Vanillite",
+	"tipo" : "Gelo",
+	"PS" : 2,
+	"ataque" : 3,
+	"defesa" : 2,
+	"ataque especial" : 3,
+	"defesa especial" : 3,
+	"velocidade" : 3
+	}
+]

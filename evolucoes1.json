@@ -1,0 +1,63 @@
+#evolucoes do nivel 1
+[
+	{
+		"nome" : "Pangoro",
+		"tipo" : "Dark",
+		"PS" : 4,
+		"ataque" : 6,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Altaria",
+		"tipo" : "Dragão",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 4,
+		"ataque especial" : 3,
+		"defesa especial" : 4,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Gurdurr",
+		"tipo" : "Lutador",
+		"PS" : 3,
+		"ataque" : 5,
+		"defesa" : 4,
+		"ataque especial" : 2,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Gumshoos",
+		"tipo" : "Normal",
+		"PS" : 3,
+		"ataque" : 6,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Bewear",
+		"tipo" : "Lutador",
+		"PS" : 5,
+		"ataque" : 7,
+		"defesa" : 4,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Marshtomp",
+		"tipo" : "Agua",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	}
+]

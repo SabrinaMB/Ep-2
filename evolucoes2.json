@@ -1,0 +1,43 @@
+#evolucoes do nivel 2
+[
+	{
+		"nome" : "Braixen",
+		"tipo" : "Fogo",
+		"PS" : 3,
+		"ataque" : 3,
+		"defesa" : 3,
+		"ataque especial" : 4,
+		"defesa especial" : 3,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Ursaring",
+		"tipo" : "Normal",
+		"PS" : 3,
+		"ataque" : 3,
+		"defesa" : 3,
+		"ataque especial" : 4,
+		"defesa especial" : 3,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Musharna",
+		"tipo" : "Psiquico",
+		"PS" : 5,
+		"ataque" : 3,
+		"defesa" : 4,
+		"ataque especial" : 5,
+		"defesa especial" : 4,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Vanillish",
+		"tipo" : "Gelo",
+		"PS" : 2,
+		"ataque" : 3,
+		"defesa" : 3,
+		"ataque especial" : 4,
+		"defesa especial" : 3,
+		"velocidade" : 3
+		}
+]
