@@ -1,0 +1,119 @@
+
+[
+	{
+		"nome" : "pancham",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 2,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "pangoro",
+		"PS" : 4,
+		"ataque" : 6,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "swablu",
+		"PS" : 2,
+		"ataque" : 2,
+		"defesa" : 3,
+		"ataque especial" : 2,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "altaria",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 4,
+		"ataque especial" : 3,
+		"defesa especial" : 4,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "jirachi",
+		"PS" : 4,
+		"ataque" : 5,
+		"defesa" : 4,
+		"ataque especial" : 5,
+		"defesa especial" : 4,
+		"velocidade" : 5
+	},
+	{
+		"nome" : "timburr",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 1,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},{
+		"nome" : "gurdurr",
+		"PS" : 3,
+		"ataque" : 5,
+		"defesa" : 4,
+		"ataque especial" : 2,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "yungoos",
+		"PS" : 2,
+		"ataque" : 4,
+		"defesa" : 2,
+		"ataque especial" : 2,
+		"defesa especial" : 1,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "gumshoos",
+		"PS" : 3,
+		"ataque" : 6,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "stufful",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 2,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "bewear",
+		"PS" : 5,
+		"ataque" : 7,
+		"defesa" : 4,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "mudkip",
+		"PS" : 2,
+		"ataque" : 4,
+		"defesa" : 2,
+		"ataque especial" : 2,
+		"defesa especial" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "marshtomp",
+		"PS" : 3,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	}
+]

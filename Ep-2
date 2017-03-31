@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 28 10:52:41 2017
+
+@author: RebecaMoreno
+"""
+'''
+#n = int(input('Quantos elementos tem nas duas listas?'))
+lista1 = input('digite alguns elementos p sua lista1')
+lista2 = input('agora digite outros elementos p sua lista2 com a mesma quantia da lista1')
+nova = []
+for i in range(len(lista1)):
+    nova.append(lista1[i])
+    nova.append(lista2[i])
+print(nova)
+
+american = input('digite um estilo americano de horario etc')
+BR = american
+
+mes = american[0] + american[1]
+dia = american[3] + american[4]
+BR = american.replace(mes,dia)
+ampm = american[-2] + american[-1]
+numhoramenor = int(american[-7] + american[-8])
+#trocado o mes por dia vamos mudar a hora
+if ampm == 'PM' or ampm == 'pm':
+    if numhoramenor >= 0 and numhoramenor < 12 :
+        BR = BR.replace(numhoramenor, numhoramenor + 12)
+        print(BR)
+    
+elif (ampm == 'AM') or (ampm == 'am'):
+    
+    BR = BR.replace(ampm, '.')
+    
+'''
+
+
+
+
+
+
+
+
