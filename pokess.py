@@ -39,10 +39,16 @@ def carafuncaobatalha(caravida,seuataque,caradefesa):
     caravida = caravida - (seuataque - caradefesa)
     return caravida
 
+
+for i in range(len(suapokedex)):
+    print("Você tem os seguintes pokemons: {0}".format(suapokedex[i]['nome']))
+
 posicaodopokemon = 0
 pp = posicaodopokemon
-print(suapokedex['nome'])
-pp = input('Qual pokemon você deseja usar??')
+pp = input('Qual pokemon você gostaria de utilizar??')
+
+
+
 x = 0
 def print_slow(str):
     for letter in str:
