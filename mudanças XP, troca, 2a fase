@@ -1,0 +1,135 @@
+import sys,time
+import random as rdm
+import json
+
+with open('pokedex1.json') as arquivo: 
+    pokedex1 = json.load(arquivo)
+
+def print_slow(str):
+     for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.05)
+
+suapokedex = [
+        {
+        "nome" : "Pancham",
+        "tipo" : "Lutador",
+        "PSA" : 4,
+        "xp" : 0,
+        "PS" : 4,
+        "ataque" : 4,
+        "defesa" : 3,
+        "ataque especial" : 2,
+        "defesa especial" : 2,
+        "velocidade" : 2
+        }
+]
+
+if len(suapokedex) == 1:
+    print_slow('\nVoce comeca com o pokemon {0}!! \nEle é do tipo {1} e tem:\n{2} pontos de vida;\n{3} de poder de ataque;\n{4} de defesa;\n{5} de ataque especial;\n{6} de defesa especial;\n{7} de velocidade!'.format(suapokedex[0]['nome'],suapokedex[0]['tipo'],suapokedex[0]['PS'],suapokedex[0]['ataque'],suapokedex[0]['defesa'],suapokedex[0]['ataque especial'],suapokedex[0]['defesa especial'],suapokedex[0]['velocidade']))
+
+
+def suafuncaobatalha(suavida,caraataque,suadefesa):
+    if suadefesa < caraataque:
+        suavida = suavida - (caraataque - suadefesa)
+    if suavida < 0:
+        suavida = 0
+    return suavida
+
+def carafuncaobatalha(caravida,seuataque,caradefesa):
+    if seuataque > caradefesa:
+        caravida = caravida - (seuataque - caradefesa)
+    return caravida
+
+
+pp = 0
+
+if pp == 1:
+    pp = pp - 1
+
+LP = []
+k = 20
+x = 0
+#Lopping infinito
+while x == 0:
+   opcao = input('Você deseja:\n(1)Passear;\n(2)Dormir?')   
+   
+   if opcao == '1':
+          #se ele tiver mais de um pokemon ele pode escolher c qual quer jogar
+       if len(suapokedex) > 1:
+           for i in suapokedex:
+               print(i['nome'])
+           ppm = int(input('Com qual pokemon vc quer jogar? (O primeiro é o numero 1, o segundo é o numero 2 etc.)'))
+           pp = ppm - 1
+           print('Voce esta jogando com o {}.'.format(suapokedex[pp]['nome']))
+       print_slow("Você está passeando...\n")
+       print("Você encontrou um inimigo!!")
+       inimigo = rdm.randint(0,6)
+
+       suavida = int(suapokedex[pp]['PSA'])
+       seuataque = int(suapokedex[pp]['ataque'])
+       suadefesa = int(suapokedex[pp]['defesa'])
+       vidainimigo = int(pokedex1[inimigo]['PSA'])
+       ataqueinimigo = int(pokedex1[inimigo]['ataque'])
+       defesainimigo = int(pokedex1[inimigo]['defesa'])
+       print_slow("E o nome dele é.....{0}\n".format(pokedex1[inimigo]['nome']))
+       print("Ele é do tipo {0} e tem:\n{1} pontos de vida;\n{2} de poder de ataque;\n{3} de defesa;\n{4} de ataque especial;\n{5} de defesa especial;\n{6} de velocidade!".format(pokedex1[inimigo]['tipo'],pokedex1[inimigo]['PS'],pokedex1[inimigo]['ataque'],pokedex1[inimigo]['defesa'],pokedex1[inimigo]['ataque especial'],pokedex1[inimigo]['defesa especial'],pokedex1[inimigo]['velocidade']))
+       Batalhar = input("Você deseja:\n(1)Batalhar;\n(2)Correr?")
+       while Batalhar == "1" and suapokedex[pp]['PSA']>0 and vidainimigo>0:
+           
+           suapokedex[pp]['PSA'] = suafuncaobatalha(suapokedex[pp]['PSA'],ataqueinimigo,suadefesa)
+           vidainimigo = carafuncaobatalha(vidainimigo,seuataque,defesainimigo)
+           print_slow("\nAgora, sua nova vida é:{}".format(suapokedex[pp]['PSA']))
+           print_slow("\nAgora, a nova vida do seu inimigo é:{}".format(vidainimigo))
+              
+           if suapokedex[pp]['PSA'] <= 0:
+                print_slow("\nDesculpe... Você perdeu. Agora o seu pokemon precisa descansar e restaurar suas forças para mais batalhas.\n")
+                
+                if len(suapokedex) > 1:
+                    for i in suapokedex:
+                        if i['PSA'] > 0:
+                            print(i["nome"])
+                            LP.append(i)
+                    print('\nVoce tem esses pokemons disponiveis.')
+                    ct = int(input(' Para continuar batalhando escolha um. (O primeiro pokemon é o numero 1 etc.) Senao digite 0.'))
+                    ct = ct -1
+                    
+                    for r in suapokedex:
+                        if r['nome'] == LP[ct]['nome']:
+                            pp = suapokedex.index(r)
+                    
+                    
+                    
+                    
+           if vidainimigo<=0:
+               print_slow('\nParabens!! Voce venceu!!\nPor isso voce ganhou {0} XPs\n'.format(k))
+               suapokedex[pp]['xp'] += k
+               ap = input('Voce quer adicionar o pokemon {} na sua pokedex?\n(1)Sim\n(2)Nao\n'.format(pokedex1[inimigo]['nome']))
+               if ap == '1':
+                   suapokedex.append(pokedex1[inimigo])
+                   print_slow("Agora, o pokemon {0} foi adicionado a sua pokedex!!\n".format(pokedex1[inimigo]['nome']))
+               print_slow('A vida de seu pokemon foi restaurada para mais batalhas!')
+               
+           elif (suapokedex[pp]['PSA']>0) and (vidainimigo>0):
+                Batalhar = input("Você deseja:\n(1)Continuar batalhando;\n(2)Fugir??")
+                 
+
+   #if opcao == '3' or opcao == 'treinar':
+   #    print('Vamos para o FabLab!\n')
+  #     print_slow("Chegando.....\n")
+ #      print('Chegamos!!\n')
+       
+       
+   if opcao == '2':
+       print_slow('Boa noite!                       ')
+       dorminhoco = input('Quer acordar?\n(1)Sim\n(2)Nao')
+       if dorminhoco == "1":
+           x = 0
+       elif dorminhoco == "2":
+           print_slow('Xau xau')
+           break 
+   elif (opcao!='2' and opcao!='1') or (Batalhar != '1'and Batalhar != '2'):
+       print("Ei!! Você só tem essas duas opções!!") 
+print(suapokedex[pp]['xp'])
+print(suapokedex)
