@@ -1,0 +1,204 @@
+[
+	{
+		"nome" : "Pancham",
+		"tipo" : "Lutador",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 3,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Swablu",
+		"tipo" : "Voador",
+		"PS" : 6,
+		"PSA" : 6,
+		"xp" : 0,
+		"ataque" : 2,
+		"defesa" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Jirachi",
+		"tipo" : "Psiquico",
+		"PS" : 12,
+		"PSA" : 12,
+		"xp" : 0,
+		"ataque" : 5,
+		"defesa" : 4,
+		"velocidade" : 5
+	},
+	{
+		"nome" : "Timbur",
+		"tipo" : "Lutador",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 3,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Yungoos",
+		"tipo" : "Normal",
+		"PS" : 6,
+		"PSA" : 6,
+		"xp" : 0,
+		"ataque" : 2,
+		"defesa" : 1,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Stufful",
+		"tipo" : "Lutador",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Timbur",
+		"tipo" : "Lutador",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 3,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Mudkip",
+		"tipo" : "Agua",
+		"PS" : 6,
+		"PSA" : 6,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Pangoro",
+		"tipo" : "Dark",
+		"PS" : 12,
+		"PSA" : 12,
+		"xp" : 0,
+		"ataque" : 6,
+		"defesa" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Altaria",
+		"tipo" : "Voador",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 4,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Gurdurr",
+		"tipo" : "Normal",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 5,
+		"defesa" : 4,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Gumshoos",
+		"tipo" : "Normal",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 6,
+		"defesa" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Bewear",
+		"tipo" : "Lutador",
+		"PS" : 15,
+		"PSA" : 15,
+		"xp" : 0,
+		"ataque" : 7,
+		"defesa" : 4,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Bewear",
+		"tipo" : "Lutador",
+		"PS" : 15,
+		"PSA" : 15,
+		"xp" : 0,
+		"ataque" : 7,
+		"defesa" : 4,
+		"velocidade" : 4
+	},
+	{
+		"nome" : "Marshtomp",
+		"tipo" : "Agua",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 3,
+		"ataque especial" : 3,
+		"defesa especial" : 3,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Fennekin",
+		"tipo" : "Fogo",
+		"PS" : 6,
+		"PSA" : 6,
+		"xp" : 0,
+		"ataque" : 2,
+		"defesa" : 2,
+		"velocidade" : 3
+	},
+	{
+		"nome" : "Teddiursa",
+		"tipo" : "Normal",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 4,
+		"defesa" : 2,
+		"velocidade" : 2
+	},
+	{
+		"nome" : "Munna",
+		"tipo" : "Psiquico",
+		"PS" : 9,
+		"PSA" : 9,
+		"xp" : 0,
+		"ataque" : 1,
+		"defesa" : 2,
+		"velocidade" : 1
+	},
+	{
+		"nome" : "Pyukumuku",
+		"tipo" : "Agua",
+		"PS" : 6,
+		"PSA" : 6,
+		"xp" : 0,
+		"ataque" : 3,
+		"defesa" : 7,
+		"velocidade" : 1
+	},
+	{
+		"nome" : "Vanillite",
+		"tipo" : "Gelo",
+		"PS" : 6,
+		"PSA" : 6,
+		"xp" : 0,
+		"ataque" : 3,
+		"defesa" : 2,
+		"velocidade" : 3
+	}
+]
